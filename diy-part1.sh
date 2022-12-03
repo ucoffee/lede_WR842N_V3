@@ -15,3 +15,13 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
+echo 'src-git packages https://git.openwrt.org/feed/packages.git;openwrt-22.03' >>feeds.conf.default
+echo 'src-git luci https://git.openwrt.org/project/luci.git;openwrt-22.03' >>feeds.conf.default
+echo 'src-git routing https://git.openwrt.org/feed/routing.git;openwrt-22.03' >>feeds.conf.default
+echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages.git;master' >>feeds.conf.default
+
+
+
+
+
